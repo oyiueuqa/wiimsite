@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Katalog Stron | TOP 100</title>
+    <meta name="description" content="Opis w Google" />
+    <meta name="keywords" content="słowa, kluczowe, wypisane, po, porzecinku" />
+    <link rel="icon" href="img/favicon.png" type="imahe/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=JetBrains+Mono&family=Poppins&family=Varela+Round&display=swap" rel="stylesheet">
+
+</head>
+
+<body onload="zegar()">
+    <header>
+        <h1 id="logo">KATALOG STRON</h1>
+        <nav>
+            <ul class="menu">
+                <li onclick="przekieruj('index.html')">Główna</li>
+                <li onclick="przekieruj('katalog.html')">Katalog</li>
+                <li id="zegar"></li>
+                <li onclick="przekieruj('autor.html')">Autor</li>
+                <li onclick="przekieruj('kontakt.html')">Kontakt</li>
+            </ul>
+        </nav>
+    </header>
+    <!--<div class="kategorie">
+            <div class="kategoria">
+                PORTALE
+            </div>
+            <div class="kategoria">
+                SPOŁECZNOŚĆ
+            </div>
+            <div class="kategoria">
+                POPULARNE
+            </div>
+            <div class="kategoria">
+                ROZRYWKA
+            </div>
+        </div> -->
+        <div class="strony">
+            <div id="portale">
+               <ul>
+                   <li id="katportale">PORTALE</li>
+                   <li><a href="https://onet.pl" target="_blank"><img class="zdjp zdj" src="img/onet.png" alt="onet"></a></li>
+                   <li><a href="https://wp.pl" target="_blank"><img class="zdjp zdj" src="img/wp.png" alt="wp"></a></li>
+                   <li><a href="https://interia.pl" target="_blank"><img class="zdjp zdj" src="img/interia.png" alt="interia"></a></li>
+                   <li><a href="https://gazeta.pl" target="_blank"><img class="zdjp zdj" src="img/gazeta.png" alt="gazeta"></a></li>
+                   <li><a href="https://msn.com" target="_blank"><img class="zdjp zdj" src="img/msn.png" alt="msn"></a></li>
+               </ul>
+            </div>
+            <div id="spolecznosc">
+                <ul>
+                    <li id="katspolecznosc">SPOŁECZNOŚĆ</li>
+                    <li><a href="https://youtube.com" target="_blank"><img class="zdjs zdj" src="img/yt.png" alt="youtube"></a></li>
+                    <li><a href="https://facebook.com" target="_blank"><img class="zdjs zdj" src="img/fb.png" alt="facebook"></a></li>
+                    <li><a href="https://instagram.com" target="_blank"><img class="zdjs zdj" src="img/insta.png" alt="instagram"></a></li>
+                    <li><a href="https://twitter.com" target="_blank"><img class="zdjs zdj" src="img/tw.png" alt="twitter"></a></li>
+                    <li><a href="https://tiktok.com" target="_blank"><img class="zdjs zdj" src="img/tt.png" alt="tiktok"></a></li>
+                </ul>
+            </div>
+            <div id="popularne">
+               <ul>
+                   <li id="katpopularne">POPULARNE</li>
+                   <li><a href="https://allegro.pl" target="_blank"><img class="zdjs zdj" src="img/allegro.png" alt="allegro"></a></li>
+                   <li><a href="https://olx.pl" target="_blank"><img class="zdjs zdj" src="img/olx.png" alt="olx"></a></li>
+                   <li><a href="https://netflix.com" target="_blank"><img class="zdjs zdj" src="img/netflix.png" alt="netflix"></a></li>
+                   <li><a href="https://wykop.pl" target="_blank"><img class="zdjs zdj" src="img/wykop.png" alt="wykop"></a></li>
+                   <li><a href="https://wikipedia.org" target="_blank"><img class="zdjs zdj" src="img/wikipedia.png" alt="wikipedia"></a></li>
+               </ul>
+            </div>
+            <div id="rozrywka">
+                <ul>
+                    <li id="katrozrywka">ROZRYWKA</li>
+                    <li><a href="https://pudelek.pl" target="_blank"><img class="zdjs zdj" src="img/pudelek.png" alt="pudelek"></a>
+                    </li>
+                    <li><a href="https://filmweb.pl" target="_blank"><img class="zdjs zdj" src="img/filmweb.png" alt="filmweb"></a></li>
+                    <li><a href="https://www.cda.pl" target="_blank"><img class="zdjs zdj" src="img/cda.png" alt="cda"></a></li>
+                    <li><a href="https://telemagazyn.pl" target="_blank"><img class="zdjs zdj" src="img/telemagazyn.png" alt="telemagazyn"></a></li>
+                    <li><a href="https://flickr.com" target="_blank"><img class="zdjs zdj" src="img/flickr.png" alt="flickr"></a></li>
+                </ul>
+            </div>
+        </div>
+    <script src="zegar.js"></script>
+</body>
+
+</html>

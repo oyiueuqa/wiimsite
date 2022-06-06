@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Katalog Stron | TOP 100</title>
+    <meta name="description" content="Opis w Google" />
+    <meta name="keywords" content="słowa, kluczowe, wypisane, po, porzecinku" />
+    <link rel="icon" href="img/favicon.png" type="imahe/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=JetBrains+Mono&family=Poppins&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body onload="zegar()">
+    <header>
+        <h1 id="logo">KATALOG STRON</h1>
+        <nav>
+            <ul class="menu">
+                <li onclick="przekieruj('index.html')">Główna</li>
+                <li onclick="przekieruj('katalog.html')">Katalog</li>
+                <li id="zegar"></li>
+                <li onclick="przekieruj('autor.html')">Autor</li>
+                <li onclick="przekieruj('kontakt.html')">Kontakt</li>
+            </ul>
+        </nav>
+    </header>
+    <a href="https://youtube.com" class="kontakt yt" target="_blank">
+        <i class="icon-youtube-play"></i>
+    </a>
+    
+    <a href="https://twitter.com" class="kontakt twitter" target="_blank">
+        <i class="icon-twitter"></i>
+    </a>
+    
+    <a href="https://gmail.com" class="kontakt email" target="_blank">
+        <i class="icon-mail"></i>
+    </a>
+    
+    <a href="https://facebook.com" class="kontakt fb" target="_blank">
+        <i class="icon-facebook"></i>
+    </a>
+    
+    <a href="https://instagram.com" class="kontakt insta" target="_blank">
+        <i class="icon-instagram"></i>
+    </a>
+    <script src="zegar.js"></script>
+</body>
+
+</html>
