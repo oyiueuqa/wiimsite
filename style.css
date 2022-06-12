@@ -5,7 +5,8 @@ body
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     color: white;
-    height: 100vh;
+    height: 1050px;
+    width: 1680px;
 }
 
 #logo
@@ -153,7 +154,7 @@ body
 .confetti > img
 {
     float: left;
-    width: 350px;
+    width: 300px;
     height: 825px;
     opacity: .5;
 }
@@ -161,7 +162,7 @@ body
 .confetti2 > img
 {
     float: left;
-    width: 350px;
+    width: 300px;
     height: 825px;
     opacity: .5;
     float: right;
@@ -246,9 +247,9 @@ ul
 .zdjp
 {
     height: 125px;
-    width: 225px;
+    width: 12vw;
     border-radius: 10px;
-    margin: 50px 0px 0px 130px;
+    margin: 50px 0px 0px 0px;
     transition: transform .5s, opacity .5s;
     opacity: .8;
     clear: both;
@@ -257,12 +258,13 @@ ul
 .zdjs
 {
     height: 125px;
-    width: 225px;
+    width: 12vw;
     border-radius: 10px;
-    margin: 50px 0px 0px 180px;
+    margin: 50px 0px 0px 0px;
     transition: transform .5s, opacity .5s;
     opacity: .8;
     clear: both;
+    background-color: white;
 }
 
 .zdj:hover
@@ -271,32 +273,19 @@ ul
     opacity: 1;
 }
 
-#portale
+#portale, #spolecznosc, #popularne, #rozrywka, #tvfm, #media, #pogoda, #banki
 {
     float: left;
+    width: 5vw;
+    margin: 50px 137.5px -50px 137.5px;
 }
 
-#spolecznosc
+#kat
 {
-    float: left;
-}
-
-#popularne
-{
-    float: left
-}
-
-#rozrywka
-{
-    float: left
-}
-
-#katportale
-{
-    background-color: white;
-    color: dodgerblue;
+    background-color: dodgerblue;
+    color: white;
     font-weight: bold;
-    margin: 50px 0px 0px 170px;
+    margin: 50px 0px 0px 19px;
     font-size: 20px;
     display: flex;
     align-items: center;
@@ -304,49 +293,11 @@ ul
     width: 150px;
     height: 40px;
     border-radius: 10px;
+    padding: 5px;
 }
 
-#katspolecznosc
+#tvfm, #media, #pogoda, #banki
 {
-    background-color: white;
-    color: dodgerblue;
-    font-weight: bold;
-    margin: 50px 0px 0px 217px;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
-}
-
-#katpopularne
-{
-    background-color: white;
-    color: dodgerblue;
-    font-weight: bold;
-    margin: 50px 0px 0px 217px;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
-}
-
-#katrozrywka
-{
-    background-color: white;
-    color: dodgerblue;
-    font-weight: bold;
-    margin: 50px 0px 0px 217px;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
+    width: 5vw;
+    margin: 137.5px;
 }
