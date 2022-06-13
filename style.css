@@ -5,7 +5,7 @@ body
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     color: white;
-    height: 1050px;
+    height: 700px;
     width: 1680px;
 }
 
@@ -19,6 +19,12 @@ body
     background-color: #333333;
     padding: 20px;
     margin: 0;
+}
+
+
+.kontakt fb
+{
+	background-color: blue;
 }
 
 .menu
@@ -78,8 +84,7 @@ body
 .kontakt
 {
     width: 20%;
-    height: calc(100vh - 143px);
-    background-color: #121212;
+    height: 800px;
     float: left;
     opacity: .8;
     display: flex;
@@ -155,7 +160,7 @@ body
 {
     float: left;
     width: 300px;
-    height: 825px;
+    height: 780px;
     opacity: .5;
 }
 
@@ -163,7 +168,7 @@ body
 {
     float: left;
     width: 300px;
-    height: 825px;
+    height: 780px;
     opacity: .5;
     float: right;
 }
@@ -204,7 +209,7 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 500px;
+    margin-top: 400px;
     transition: font-size 1s, background-color 1s, color 1s;
 }
 
